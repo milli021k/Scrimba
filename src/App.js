@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+
       <img src={logo} />
       <h1>Fun Facts About React</h1>
 
