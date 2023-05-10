@@ -1,8 +1,24 @@
-img{
-  height :100px
+.nav-items{
+  border: 1px solid rgb(30, 255, 0);
+  list-style: none;
+  display: flex;
 }
 
-li {
+.nav-items > li {
+  padding: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo{
+  height :60px
+}
+
+ol > li {
   list-style-type: disc;
 }
 
@@ -17,4 +33,13 @@ justify-content: space-between;
   .App {
     flex-direction: column;
   }
+}
+
+footer{
+  margin-bottom: 0px;
+  margin: auto;
+  width: 80%;
+  border: 1px solid red;
+  text-align: center;
+
 }
