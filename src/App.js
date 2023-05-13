@@ -9,10 +9,9 @@ import React from 'react'
 function App() {
   return (
    <>
- <NavBar />
- <Main/>
- <Footer/>
 
+<button> NavBar </button>
+<button> Main</button>
  </>
   );
 }
