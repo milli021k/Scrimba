@@ -11,7 +11,8 @@ function App() {
    <>
  <NavBar />
  <Main/>
-<div> Halo Main</div>
+ <Footer/>
+
  </>
   );
 }
