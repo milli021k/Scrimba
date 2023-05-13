@@ -1,8 +1,7 @@
 
 import "./App.css";
-import Header from "./Header";
-import Footer from "./Footer";
-import MainContent from "./MainContent";
+import NavBar from "./coponents/NavBar";
+import Main from "./coponents/Main";
 import React from 'react'
 
 
@@ -10,9 +9,9 @@ import React from 'react'
 function App() {
   return (
    <>
-   <Header/>
-   <MainContent/>
-   <Footer/>
+ <NavBar />
+ <Main/>
+
    </>
   );
 }
