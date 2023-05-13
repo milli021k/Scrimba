@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
       <img src={logo} />
-      <h1>Fun Facts About React</h1>
+      <h1> Updated Fun Facts About React</h1>
 
       <ol>
         <li>was First releaased in 2013</li>
